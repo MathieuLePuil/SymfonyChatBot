@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ChatbotController!{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <article>
+            {{ form(form) }}
+
+            {{ answer ?? '' }}
+        </article>
+    </div>
+{% endblock %}
